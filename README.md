@@ -34,7 +34,7 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
   client-side: Stockfish, clocks, 2,987 World Championship games, a SQLite
   library, no backend at all
 - **[Net10Sudoku](https://github.com/bgard68/Net10Sudoku)** — Blazor
-  generator/solver. **[Play it](https://blazor-sudoku-net10.azurewebsites.net)**
+  generator/solver, [play it live](https://blazor-sudoku-net10.azurewebsites.net)
 - **[LotteryApp](https://github.com/bgard68/LotteryApp)** — Powerball & Mega
   Millions checking against 24 years of real drawings, .NET 10 + Dapper
 - **[ToDoApp](https://github.com/bgard68/ToDoApp)** — Clean Architecture + CQRS

@@ -32,13 +32,17 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
 
 - **[ClaudeChessApp](https://github.com/bgard68/ClaudeChessApp)** — chess fully
   client-side: Stockfish, clocks, 2,987 World Championship games, a SQLite
-  library, no backend at all
+  library, no backend at all,
+  [try it live](https://happy-coast-011b8f510.7.azurestaticapps.net)
 - **[Net10Sudoku](https://github.com/bgard68/Net10Sudoku)** — Blazor
-  generator/solver, [play it live](https://blazor-sudoku-net10.azurewebsites.net)
+  generator/solver,
+  [try it live](https://blazor-sudoku-net10.azurewebsites.net)
 - **[LotteryApp](https://github.com/bgard68/LotteryApp)** — Powerball & Mega
-  Millions checking against 24 years of real drawings, .NET 10 + Dapper
+  Millions checking against 24 years of real drawings, .NET 10 + Dapper,
+  [try it live](https://thankful-grass-06c113f10.7.azurestaticapps.net)
 - **[ToDoApp](https://github.com/bgard68/ToDoApp)** — Clean Architecture + CQRS
-  kanban with revocable JWT auth
+  kanban with revocable JWT auth,
+  [try it live](https://salmon-field-054249810.7.azurestaticapps.net)
 
 Everything above is .NET 10 / C#, CI-gated with CodeQL, gitleaks and dependency
 review, deployed on Azure free tiers, and built in collaboration with AI agents

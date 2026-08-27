@@ -20,7 +20,8 @@ rule id the scanner never produced cannot survive the containment gate. The
 gate is mutation-tested, the rules are scored against a golden corpus written
 independently of the code, and the whole eval runs offline on every push.
 Scanned against 564 workflows from 14 major OSS repositories: 100% parsed, 94%
-carried findings, zero false positives on the clean baseline.
+carried findings, and two Critical rules returning zero across every file
+alongside 796 unpinned-action hits — a rule set discriminating, not spraying.
 
 **[WidgetWorks](https://github.com/bgard68/WidgetWorks)** — an e-commerce store
 built to a production security posture: JWT with rotating refresh tokens, TOTP
@@ -48,3 +49,11 @@ Everything above is .NET 10 / C#, CI-gated with CodeQL, gitleaks and dependency
 review, deployed on Azure free tiers, and built in collaboration with AI agents
 under the constraint the flagship demonstrates: generated code ships only after
 deterministic checks say it may.
+
+## Reach me
+
+Open to AI engineering roles — building LLM-powered systems, or putting
+guardrails around the ones that already exist.
+
+[bgard68@gmail.com](mailto:bgard68@gmail.com) ·
+[LinkedIn](https://linkedin.com/in/burt-gardner)

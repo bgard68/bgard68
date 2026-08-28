@@ -1,8 +1,9 @@
 # Burt Gardner
 
-Full-stack .NET & Azure engineer — 18 years at Walmart Global Tech. I build
-LLM-assisted systems the way security tooling has to be built: the model gets a
-voice, never a vote.
+I build LLM-powered systems the way security tooling has to be built: the model
+gets a voice, never a vote. Eighteen years shipping production code at Walmart
+Global Tech, and a year since on self-directed R&D into making generated code
+safe to trust.
 
 ## Start here
 
@@ -29,7 +30,7 @@ built to a production security posture: JWT with rotating refresh tokens, TOTP
 pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapps.net)**
 — demo accounts for all three roles are on the landing page.
 
-## Also on the shelf
+## Also shipped
 
 - **[ClaudeChessApp](https://github.com/bgard68/ClaudeChessApp)** — chess fully
   client-side: Stockfish, clocks, 2,987 World Championship games, a SQLite

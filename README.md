@@ -32,11 +32,12 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
 
 ## Also shipped
 
-- **[bi-simulator](https://github.com/bgard68/bi-simulator)** — 18 messy data
-  sources (SQLite, CSV, JSON, JSONL, XML) conformed and flattened into one
-  43-column model powering a Power BI-style dashboard with cross-filtering —
-  dependency-free Python, deterministic by seed, rebuilt from scratch and
-  redeployed by CI on every push,
+- **[bi-simulator](https://github.com/bgard68/bi-simulator)** — the
+  "bring 18 data sources together" problem, done agentically: an AI agent
+  built the full pipeline under direction — messy SQLite/CSV/JSON/JSONL/XML
+  exports conformed, joined, and flattened into one analytical model with a
+  live cross-filtering dashboard — deterministic by seed, rebuilt from
+  scratch by CI on every push,
   [try it live](https://bgard68.github.io/bi-simulator/)
 - **[ClaudeChessApp](https://github.com/bgard68/ClaudeChessApp)** — chess fully
   client-side: Stockfish, clocks, 2,987 World Championship games, a SQLite

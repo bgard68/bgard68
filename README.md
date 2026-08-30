@@ -33,12 +33,15 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
 ## Also shipped
 
 - **[bi-simulator](https://github.com/bgard68/bi-simulator)** — the
-  "bring 18 data sources together" problem, done agentically: an AI agent
-  built the full pipeline under direction — messy SQLite/CSV/JSON/JSONL/XML
-  exports conformed, joined, and flattened into one analytical model with a
-  live cross-filtering dashboard — deterministic by seed, rebuilt from
-  scratch by CI on every push,
-  [try it live](https://bgard68.github.io/bi-simulator/)
+  "bring 18 data sources together" problem, done agentically twice over: an
+  AI agent built the pipeline (messy SQLite/CSV/JSON/JSONL/XML exports
+  conformed, joined, flattened into one analytical model with a live
+  cross-filtering dashboard), and an LLM now runs *inside* it — mapping an
+  unseen 19th source from a closed transform vocabulary, landing only past
+  eleven deterministic gates, negative-case tested, prompt-injection canary
+  included. Deterministic by seed, replayed by CI on every push.
+  [Try it live](https://bgard68.github.io/bi-simulator/) ·
+  [the evidence](https://bgard68.github.io/bi-simulator/mapping.html)
 - **[ClaudeChessApp](https://github.com/bgard68/ClaudeChessApp)** — chess fully
   client-side: Stockfish, clocks, 2,987 World Championship games, a SQLite
   library, no backend at all,

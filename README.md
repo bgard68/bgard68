@@ -32,6 +32,12 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
 
 ## Also shipped
 
+- **[bi-simulator](https://github.com/bgard68/bi-simulator)** — 18 messy data
+  sources (SQLite, CSV, JSON, JSONL, XML) conformed and flattened into one
+  43-column model powering a Power BI-style dashboard with cross-filtering —
+  dependency-free Python, deterministic by seed, rebuilt from scratch and
+  redeployed by CI on every push,
+  [try it live](https://bgard68.github.io/bi-simulator/)
 - **[ClaudeChessApp](https://github.com/bgard68/ClaudeChessApp)** — chess fully
   client-side: Stockfish, clocks, 2,987 World Championship games, a SQLite
   library, no backend at all,
@@ -46,10 +52,12 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
   kanban with revocable JWT auth,
   [try it live](https://salmon-field-054249810.7.azurestaticapps.net)
 
-Everything above is .NET 10 / C#, CI-gated with CodeQL, gitleaks and dependency
-review, deployed on Azure free tiers, and built in collaboration with AI agents
-under the constraint the flagship demonstrates: generated code ships only after
-deterministic checks say it may.
+Everything above is .NET 10 / C# except the BI simulator, which is deliberately
+dependency-free Python. All of it is CI-gated (CodeQL across the board; gitleaks
+and dependency review on the .NET apps), deployed on free tiers — Azure and
+GitHub Pages — and built in collaboration with AI agents under the constraint
+the flagship demonstrates: generated code ships only after deterministic checks
+say it may.
 
 ## Reach me
 

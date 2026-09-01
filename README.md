@@ -53,15 +53,17 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
   Millions checking against 24 years of real drawings, .NET 10 + Dapper,
   [try it live](https://thankful-grass-06c113f10.7.azurestaticapps.net)
 - **[ToDoApp](https://github.com/bgard68/ToDoApp)** — Clean Architecture + CQRS
-  kanban with revocable JWT auth,
-  [try it live](https://salmon-field-054249810.7.azurestaticapps.net)
+  kanban with revocable JWT auth, React SPA over a .NET 10 API,
+  [try it live](https://salmon-field-054249810.7.azurestaticapps.net) — demo
+  account is on the sign-in page
 
-Everything above is .NET 10 / C# except the BI simulator, which is deliberately
-dependency-free Python. All of it is CI-gated (CodeQL across the board; gitleaks
-and dependency review on the .NET apps), deployed on free tiers — Azure and
-GitHub Pages — and built in collaboration with AI agents under the constraint
-the flagship demonstrates: generated code ships only after deterministic checks
-say it may.
+Everything above is .NET 10 / C# — with React front ends on ToDoApp,
+WidgetWorks, LotteryApp and Sentinel — except the BI simulator, which is
+deliberately dependency-free Python. All of it is CI-gated (CodeQL across the
+board; gitleaks and dependency review on the .NET apps), deployed on free
+tiers — Azure and GitHub Pages — and built in collaboration with AI agents
+under the constraint the flagship demonstrates: generated code ships only after
+deterministic checks say it may.
 
 ## Reach me
 

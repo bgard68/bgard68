@@ -58,10 +58,10 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
   account is on the sign-in page
 
 Everything above is .NET 10 / C# — with React front ends on ToDoApp,
-WidgetWorks, LotteryApp and Sentinel — except the BI simulator, which is
-deliberately dependency-free Python. All of it is CI-gated (CodeQL across the
-board; gitleaks and dependency review on the .NET apps), deployed on free
-tiers — Azure and GitHub Pages — and built in collaboration with AI agents
+WidgetWorks and Sentinel, and Angular on LotteryApp — except the BI simulator,
+which is deliberately dependency-free Python. All of it is CI-gated (CodeQL
+across the board; gitleaks and dependency review on the .NET apps), deployed on
+free tiers — Azure and GitHub Pages — and built in collaboration with AI agents
 under the constraint the flagship demonstrates: generated code ships only after
 deterministic checks say it may.
 

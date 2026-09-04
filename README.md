@@ -5,6 +5,8 @@ gets a voice, never a vote. Eighteen years shipping production code at Walmart
 Global Tech, and a year since on self-directed R&D into making generated code
 safe to trust.
 
+*Open to AI engineering roles — [contact below](#reach-me).*
+
 ## Start here
 
 **[DevSecOps Sentinel](https://github.com/bgard68/DevSecOpsSentinel)** — a
@@ -13,14 +15,16 @@ true and a schema-constrained model explains it.
 **[Try it live](https://gentle-ground-047e1fb10.7.azurestaticapps.net)** — no
 signup, nothing to install.
 
-The part I'd want you to look at: the test suite includes a workflow whose
+**The part I'd want you to look at:** the test suite includes a workflow whose
 comments tell the model to invent a finding and suppress a real one — the
 prompt-injection case, since scanned content is attacker-controlled — plus a
 recorded reply where the model *obeys*. The reply is rejected anyway, because a
-rule id the scanner never produced cannot survive the containment gate. Weaken
-that gate to a count comparison and 5 of its 14 containment tests fail. The
-rules are scored against a golden corpus written independently of the code, and
-the whole eval runs offline in CI — no API key, no network, no spend.
+rule id the scanner never produced cannot survive the containment gate.
+**Weaken that gate to a count comparison and 5 of its 14 containment tests
+fail.**
+
+The rules are scored against a golden corpus written independently of the code,
+and the whole eval runs offline in CI — no API key, no network, no spend.
 Scanned against 564 workflows from 14 major OSS repositories: 100% parsed, 94%
 carried findings, and two Critical rules returning zero across every file
 alongside 796 unpinned-action hits — a rule set discriminating, not spraying.

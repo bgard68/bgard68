@@ -51,6 +51,11 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
   client-side: Stockfish, clocks, 2,969 World Championship games, a SQLite
   library, no backend at all,
   [try it live](https://happy-coast-011b8f510.7.azurestaticapps.net)
+- **[data-structure-studio](https://github.com/bgard68/data-structure-studio)** —
+  an animated data-structure lab for CS students: every frame is driven by real
+  pointer mutations, a live step counter makes Big-O observable, and the trees
+  run up to hand-implemented AVL and CLRS red-black. Zero dependencies,
+  [try it live](https://bgard68.github.io/data-structure-studio/)
 - **[Net10Sudoku](https://github.com/bgard68/Net10Sudoku)** — Blazor
   generator/solver,
   [try it live](https://blazor-sudoku-net10.azurewebsites.net)
@@ -65,14 +70,16 @@ pluggable payments. **[Live store](https://black-wave-0aaf4010f.7.azurestaticapp
 
 Everything above is .NET 10 / C# — with React front ends on ToDoApp,
 WidgetWorks and Sentinel, and Angular on LotteryApp — except ClaudeChessApp,
-which is React and TypeScript with no backend at all, and the BI simulator,
-which is deliberately dependency-free Python. All of it is CI-gated: CodeQL
-across the board, dependency review on every repo with dependencies to review
-(the BI simulator, stdlib-only, has none), and secret scanning everywhere —
-gitleaks in CI on five repos, GitHub push protection on Net10Sudoku and the BI
-simulator. Deployed on free tiers — Azure and GitHub Pages — and built in
-collaboration with AI agents under the constraint the flagship demonstrates:
-generated code ships only after deterministic checks say it may.
+which is React and TypeScript with no backend at all, the BI simulator, which
+is deliberately dependency-free Python, and the data-structure studio, which is
+zero-dependency vanilla JavaScript. All of it except the dependency-free studio
+is CI-gated: CodeQL across the board, dependency review on every repo with
+dependencies to review (the BI simulator, stdlib-only, has none), and secret
+scanning everywhere — gitleaks in CI on five repos, GitHub push protection on
+Net10Sudoku and the BI simulator. Deployed on free tiers — Azure and GitHub
+Pages — and built in collaboration with AI agents under the constraint the
+flagship demonstrates: generated code ships only after deterministic checks say
+it may.
 
 ## Reach me
 

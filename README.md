@@ -5,7 +5,7 @@ gets a voice, never a vote. Eighteen years shipping production code at Walmart
 Global Tech, and a year since on self-directed R&D into making generated code
 safe to trust.
 
-*Open to AI engineering roles — [contact below](#reach-me).*
+*Open to AI engineering roles — [résumé](https://github.com/bgard68/bgard68/blob/main/Burt_Gardner_Resume.pdf) · [contact below](#reach-me).*
 
 ## Start here
 
@@ -87,4 +87,5 @@ Open to AI engineering roles — building LLM-powered systems, or putting
 guardrails around the ones that already exist.
 
 [bgard68@gmail.com](mailto:bgard68@gmail.com) ·
-[LinkedIn](https://linkedin.com/in/burt-gardner)
+[LinkedIn](https://linkedin.com/in/burt-gardner) ·
+[Résumé (PDF)](https://github.com/bgard68/bgard68/blob/main/Burt_Gardner_Resume.pdf)
